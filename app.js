@@ -3,8 +3,8 @@ function set(){
     var y = document.getElementById("myText2").value;
     var res = Math.floor(Math.random()*100)+1;
     //x = 11 ,5, y = 5,7,
-    if(x.length==5 || x.length==11){
-        if(y.length==5 || y.length==7){
+    if(x.length==5 || x.length==11 || x.length==7){
+        if(y.length==5 || y.length==7 || y.length==11){
             document.getElementById("demo").innerHTML = x + " your bond with " + y + " is " +  " 100% 💓" ;
         }
     }else{
